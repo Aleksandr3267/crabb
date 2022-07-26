@@ -1,0 +1,241 @@
+@media(max-width:1880px){
+	.catalog-blocks_slider{
+		right: 0;
+		max-width: 900px;
+	}
+}
+
+@media(max-width:1700px){
+	.charity_slider .slider_item .bg_slide .slide-image_sl{
+		left: 0px;
+	}
+}
+
+@media(max-width:1440px){
+	.catalog-blocks_slider{
+		max-width: 800px;
+	}
+}
+
+@media(max-width:1120px){
+	.oglavline h2{
+		font-size: 1.8rem;
+	}
+	.glav_but button{
+		padding: 15px 25px 15px 25px;
+		font-size: .8em;
+		min-width: auto;
+	}
+	.slider .top_menu nav .menu ul li a{
+		margin: 0 20px;
+	}
+
+	.catalog-blocks .catalog-blocks_text h2{
+		font-size: 1.8rem;
+	}
+}
+@media(max-width:1000px){
+	.header .slider .container{
+		padding: 0 70px;
+	}
+	
+	.charity_slider .slider_item .bg_slide .slide-image_sl{
+		top: 50px;
+		position: absolute;
+		opacity: .5;
+		width: 100%;
+		max-width: 800px;
+	}
+	.charity_slider .slider_item .bg_slide .oglavline{
+		position: relative;
+		z-index: 1000;
+	}
+	.slider .top_menu nav .menu ul li a{
+		margin: 0 15px;
+	}
+}
+
+@media(max-width: 960px){
+	body.lock {
+		overflow: hidden;
+		z-index: 1000;
+	}
+	.header-burger {
+		display: block;
+		position: relative;
+		margin: 0px 20px 0 0;
+		width: 30px;
+		height: 30px;
+		z-index: 1000000000;
+		order: 2;
+	}
+	.header-burger:before,
+	.header-burger:after {
+		content: '';
+		background: white;
+		position: absolute;
+		height: 3px;
+		left: 0;
+		width: 100%;
+		transition: all 0.4s ease 0s;
+	}
+	.header-burger:before {
+		top: 0;
+	}
+	.header-burger span {
+		background: white;
+		position: absolute;
+		height: 3px;
+		left: 0;
+		top: 13.5px;
+		width: 100%;
+		transition: all 0.4s ease 0s;
+	}
+	.header-burger:after {
+		bottom: 0;
+	}
+	.header-burger.active:before {
+		transform: rotate(45deg);
+		top: 13.5px;
+	}
+	.header-burger.active:after {
+		transform: rotate(-45deg);
+		bottom: 13.5px;
+	}
+	.header-burger.active span {
+		transform: scale(0);
+	}
+	#main-menu {
+		position: fixed;
+		background: rgba(0, 0, 0, 0.8);
+		padding: 50px 0 150px 0;
+		top: 0;
+		left: -100%;
+		transition: all 0.4s ease 0s;
+		overflow: auto;
+		width: 60%;
+		height: 100%;
+	}
+	#main-menu.active {
+		left: 0;
+	}
+	.slider .top_menu nav .menu ul {
+		display: block;
+		float: left;
+		margin: 0 0 0 20px;
+	}
+	.slider .top_menu nav .menu ul li a {
+		float: left;
+		font-size: 20px;
+		text-transform: uppercase;
+		margin: 20px 0 20px 0;
+	}
+	.slider .top_menu nav .instrumentary {
+		order: 1;
+	}
+}
+
+@media(max-width:768px){
+	.charity_slider{
+		min-height: 535px;
+	}
+	.charity_slider .slider_item{
+		height: 535px;
+	}
+	.charity_slider .slider_item .bg_slide .slide-image_sl{
+		width: 700px;
+		left: -30%;
+		top: 80%;
+	}
+	.charity_slider .slider_item .bg_slide .oglavline{
+		top: 100px;
+	}
+	
+	.oglavline h2{
+		font-size: 1.5rem;
+		margin-top:19px;
+	}
+	.oglavline p{
+		font-size: 0.9rem;
+		line-height: 18px;
+	}
+
+	.catalog-blocks .catalog-blocks_text h2{
+		font-size: 1.5rem;
+	}
+	.catalog-blocks .catalog-blocks_text .catalog-blocks_subtitle{
+		font-size: .9rem;
+		line-height: 18px;
+		margin: 25px 0 0 0;
+	}
+}
+
+@media(max-width:660px){
+	.header .slider .top_menu .container{
+		padding: 0 10px;
+	}
+	.header-burger{
+		margin: 0px 5px 0 0;
+	}
+	.catalog-blocks{
+		flex-direction: column;
+		align-items: start;
+	}
+	.catalog-blocks_slider{
+		margin-top: 50px;
+	}
+}
+@media(max-width:600px){
+	.charity_slider .slider_item .bg_slide .slide-image_sl{
+		width: 600px;
+	}
+}
+@media(max-width:550px){
+	.logo-desktop{
+		display: none;
+	}
+	.logo-mobile{
+		display: block;
+		width: 40px;
+	}
+	.header .slider .top_menu .container {
+		padding: 0 1px;
+	}
+	.slider .top_menu nav .instrumentary .inst {
+		margin-left: 15px;
+	}
+}
+@media(max-width:520px){
+	.charity_slider .slider_item .bg_slide .slide-image_sl{
+		width: 500px;
+	}
+	.charity_slider .slider_item .bg_slide .oglavline{
+		top: 60px;
+	}
+	.glav_but{
+		flex-direction: column;
+		align-items: center;
+	}
+	.glav_but .glav_b:nth-child(2){
+		margin: 20px 0 0 0;
+	}
+}
+
+@media(max-width:400px){
+	.slider .top_menu nav .instrumentary .inst{
+		margin-left: 0;
+	}
+	.slider .top_menu nav .instrumentary .inst:nth-child(2) {
+		margin-left: 45px;
+	}
+	.slider .top_menu nav .instrumentary .inst i{
+		font-size: 1.4rem;
+	}
+	.slider .top_menu nav .instrumentary .inst p{
+		display: none;
+	}
+	.charity_slider .slider_item .bg_slide .slide-image_sl{
+		width: 400px;
+		left: -70%;
+	}
+}
